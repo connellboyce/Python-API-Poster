@@ -4,7 +4,7 @@ import json
 # Set URL to post to and declare authorization header
 # Auth header will expire and need to be replaced after some time
 url = 'http://localhost:9999/api/pepper/add'
-headers = {'Authorization' : 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb25uZWxsIiwiaWF0IjoxNTkxNzA5MzkwLCJleHAiOjE1OTE3NjkzOTB9.02FykKqnRJ6QZRKuMarIhkPjkJeX4zIT5rgSWmf-bstwPF39XWzNxBJ373lBvUPhrn9M1AOs8P7sc-5LxQsryA', 'Accept' : 'application/json', 'Content-Type' : 'application/json'}
+headers = {'Authorization' : '<PASTE HEADER HERE>', 'Accept' : 'application/json', 'Content-Type' : 'application/json'}
 fileName = 'pepperList.json'
 arrayName = 'peppers'
 
